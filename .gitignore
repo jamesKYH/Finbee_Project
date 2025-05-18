@@ -67,6 +67,6 @@ __pycache__/
 venv/
 .rag/
 .rag_env/
-chroma_db/
+
 db/__pycache__/
 llm/__pycache__/
