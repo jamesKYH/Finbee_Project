@@ -1,0 +1,72 @@
+# 환경 변수 파일
+.env
+.env.*
+!.env.example
+
+# Python 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 노트북 체크포인트
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# 로그 파일
+*.log
+
+# 백업 파일
+db_backup/chroma_db_backup/
+
+# 대용량 데이터 파일
+data/
+# 아래 개별 파일 지정은 data/ 폴더 전체를 무시하므로 필요 없음
+# data/user_transactions.csv
+# data/card_assignment_result_final.csv
+
+# IDE 설정 파일
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS 생성 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+venv/
+.rag/
+.rag_env/
+chroma_db/
+db/__pycache__/
+llm/__pycache__/
